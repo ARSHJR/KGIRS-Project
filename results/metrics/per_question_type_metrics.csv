@@ -1,0 +1,9 @@
+question_type,num_questions,baseline_accuracy,corrective_accuracy,kg_fallback_count,kg_fallback_rate,accuracy_gain
+aggregation,23,0.0,0.0,0,0.0,0.0
+comparison,23,0.2174,0.2174,0,0.0,0.0
+false_premise,23,0.0,0.0,3,0.1304,0.0
+multi-hop,18,0.0556,0.0556,2,0.1111,0.0
+post-processing,9,0.1111,0.1111,0,0.0,0.0
+set,18,0.0,0.0,0,0.0,0.0
+simple,57,0.0526,0.0526,9,0.1579,0.0
+simple_w_condition,29,0.069,0.069,3,0.1034,0.0

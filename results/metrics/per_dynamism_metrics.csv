@@ -1,0 +1,5 @@
+dynamism,num_questions,baseline_accuracy,corrective_accuracy,kg_fallback_rate,accuracy_when_fallback_triggered
+fast-changing,23,0.0435,0.0435,0.0435,0.0
+real-time,17,0.0,0.0,0.3529,0.0
+slow-changing,47,0.0638,0.0638,0.0426,0.0
+static,113,0.0708,0.0708,0.0708,0.0

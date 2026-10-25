@@ -1,0 +1,2 @@
+num_questions,baseline_accuracy,corrective_accuracy,absolute_improvement,relative_improvement_pct,total_kg_fallback_count,kg_fallback_rate,accuracy_when_fallback_triggered,accuracy_when_fallback_not_triggered,fallback_success_rate,num_baseline_wrong_corrective_correct,num_baseline_correct_corrective_wrong,num_unchanged
+200,0.06,0.06,0.0,0.0,17,0.085,0.0,0.0656,0.0,0,0,200

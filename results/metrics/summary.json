@@ -1,0 +1,168 @@
+{
+  "overall": {
+    "num_questions": 200,
+    "baseline_accuracy": 0.06,
+    "corrective_accuracy": 0.06,
+    "absolute_improvement": 0.0,
+    "relative_improvement_pct": 0.0,
+    "total_kg_fallback_count": 17,
+    "kg_fallback_rate": 0.085,
+    "accuracy_when_fallback_triggered": 0.0,
+    "accuracy_when_fallback_not_triggered": 0.0656,
+    "fallback_success_rate": 0.0,
+    "num_baseline_wrong_corrective_correct": 0,
+    "num_baseline_correct_corrective_wrong": 0,
+    "num_unchanged": 200
+  },
+  "confusion": {
+    "baseline_correct_corrective_correct": 12,
+    "baseline_wrong_corrective_correct": 0,
+    "baseline_correct_corrective_wrong": 0,
+    "baseline_wrong_corrective_wrong": 188
+  },
+  "by_type": [
+    {
+      "question_type": "aggregation",
+      "num_questions": 23,
+      "baseline_accuracy": 0.0,
+      "corrective_accuracy": 0.0,
+      "kg_fallback_count": 0,
+      "kg_fallback_rate": 0.0,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "comparison",
+      "num_questions": 23,
+      "baseline_accuracy": 0.2174,
+      "corrective_accuracy": 0.2174,
+      "kg_fallback_count": 0,
+      "kg_fallback_rate": 0.0,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "false_premise",
+      "num_questions": 23,
+      "baseline_accuracy": 0.0,
+      "corrective_accuracy": 0.0,
+      "kg_fallback_count": 3,
+      "kg_fallback_rate": 0.1304,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "multi-hop",
+      "num_questions": 18,
+      "baseline_accuracy": 0.0556,
+      "corrective_accuracy": 0.0556,
+      "kg_fallback_count": 2,
+      "kg_fallback_rate": 0.1111,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "post-processing",
+      "num_questions": 9,
+      "baseline_accuracy": 0.1111,
+      "corrective_accuracy": 0.1111,
+      "kg_fallback_count": 0,
+      "kg_fallback_rate": 0.0,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "set",
+      "num_questions": 18,
+      "baseline_accuracy": 0.0,
+      "corrective_accuracy": 0.0,
+      "kg_fallback_count": 0,
+      "kg_fallback_rate": 0.0,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "simple",
+      "num_questions": 57,
+      "baseline_accuracy": 0.0526,
+      "corrective_accuracy": 0.0526,
+      "kg_fallback_count": 9,
+      "kg_fallback_rate": 0.1579,
+      "accuracy_gain": 0.0
+    },
+    {
+      "question_type": "simple_w_condition",
+      "num_questions": 29,
+      "baseline_accuracy": 0.069,
+      "corrective_accuracy": 0.069,
+      "kg_fallback_count": 3,
+      "kg_fallback_rate": 0.1034,
+      "accuracy_gain": 0.0
+    }
+  ],
+  "by_domain": [
+    {
+      "domain": "finance",
+      "num_questions": 46,
+      "baseline_accuracy": 0.0,
+      "corrective_accuracy": 0.0,
+      "kg_fallback_rate": 0.2174
+    },
+    {
+      "domain": "movie",
+      "num_questions": 44,
+      "baseline_accuracy": 0.0682,
+      "corrective_accuracy": 0.0682,
+      "kg_fallback_rate": 0.0455
+    },
+    {
+      "domain": "music",
+      "num_questions": 22,
+      "baseline_accuracy": 0.0,
+      "corrective_accuracy": 0.0,
+      "kg_fallback_rate": 0.0909
+    },
+    {
+      "domain": "open",
+      "num_questions": 43,
+      "baseline_accuracy": 0.1163,
+      "corrective_accuracy": 0.1163,
+      "kg_fallback_rate": 0.0465
+    },
+    {
+      "domain": "sports",
+      "num_questions": 45,
+      "baseline_accuracy": 0.0889,
+      "corrective_accuracy": 0.0889,
+      "kg_fallback_rate": 0.0222
+    }
+  ],
+  "by_dynamism": [
+    {
+      "dynamism": "fast-changing",
+      "num_questions": 23,
+      "baseline_accuracy": 0.0435,
+      "corrective_accuracy": 0.0435,
+      "kg_fallback_rate": 0.0435,
+      "accuracy_when_fallback_triggered": 0.0
+    },
+    {
+      "dynamism": "real-time",
+      "num_questions": 17,
+      "baseline_accuracy": 0.0,
+      "corrective_accuracy": 0.0,
+      "kg_fallback_rate": 0.3529,
+      "accuracy_when_fallback_triggered": 0.0
+    },
+    {
+      "dynamism": "slow-changing",
+      "num_questions": 47,
+      "baseline_accuracy": 0.0638,
+      "corrective_accuracy": 0.0638,
+      "kg_fallback_rate": 0.0426,
+      "accuracy_when_fallback_triggered": 0.0
+    },
+    {
+      "dynamism": "static",
+      "num_questions": 113,
+      "baseline_accuracy": 0.0708,
+      "corrective_accuracy": 0.0708,
+      "kg_fallback_rate": 0.0708,
+      "accuracy_when_fallback_triggered": 0.0
+    }
+  ]
+}

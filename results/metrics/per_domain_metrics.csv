@@ -1,0 +1,6 @@
+domain,num_questions,baseline_accuracy,corrective_accuracy,kg_fallback_rate
+finance,46,0.0,0.0,0.2174
+movie,44,0.0682,0.0682,0.0455
+music,22,0.0,0.0,0.0909
+open,43,0.1163,0.1163,0.0465
+sports,45,0.0889,0.0889,0.0222
